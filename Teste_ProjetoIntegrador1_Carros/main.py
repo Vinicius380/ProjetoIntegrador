@@ -28,8 +28,7 @@ def criar_carros():
     Carros.append(carro)
     return make_response(
         jsonify(mensagem='Carro cadastrado com sucesso',
-                carro=carro
-                )
+                carro=carro)
     )
 
 
